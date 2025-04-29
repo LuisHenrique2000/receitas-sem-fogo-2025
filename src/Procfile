@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT src.main:criar_aplicativo
+web: gunicorn --bind 0.0.0.0:$PORT src.main:create_app
